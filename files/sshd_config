@@ -1,8 +1,9 @@
 # Secure defaults
 # See: https://stribika.github.io/2015/01/04/secure-secure-shell.html
+#Updated hostkeys to new name
 Protocol 2
-HostKey /etc/ssh/ssh_host_ed25519_key
-HostKey /etc/ssh/ssh_host_rsa_key
+HostKey /etc/ssh/ssh_host_my_ed25519_key
+HostKey /etc/ssh/ssh_host_my_rsa_key
 
 # Faster connection
 # See: https://github.com/atmoz/sftp/issues/11
